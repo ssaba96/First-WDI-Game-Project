@@ -1,1 +1,6 @@
+// Self invoking function
+$(function() {
 
+
+
+})

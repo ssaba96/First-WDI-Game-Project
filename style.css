@@ -1,32 +1,6 @@
-table #black-book {
+td {
+  background-color: peachPuff;
   height: 200px;
-  width: 200px;
-  background-image: url(images/black-book.png);
-  background-size: cover; }
-table #brown-book {
-  height: 200px;
-  width: 200px;
-  background-image: url(images/brown-book.png);
-  background-size: cover; }
-table #green-book {
-  height: 200px;
-  width: 200px;
-  background-image: url(images/green-book.png);
-  background-size: cover; }
-table #orange-book {
-  height: 200px;
-  width: 200px;
-  background-image: url(images/orange-book.png);
-  background-size: cover; }
-table #red-book {
-  height: 200px;
-  width: 200px;
-  background-image: url(images/red-book.png);
-  background-size: cover; }
-table #yellow-book {
-  height: 200px;
-  width: 200px;
-  background-image: url(images/yellow-book.png);
-  background-size: cover; }
+  width: 200px; }
 
 /*# sourceMappingURL=style.css.map */
