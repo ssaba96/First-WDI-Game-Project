@@ -5,26 +5,44 @@
   <title>Simon Says</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./app.js"></script>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
+  <div class="header-container">
+    <div class="centered-box">
+      <img class="header-image" src="./images/mobster.png"/>
+      <h2 class="heading">BECAUSE SIMON SAYS</h2>
+    </div>
+  </div>
+
+  <h2 id="Messages"></h2>
+
   <!-- Player Score -->
-  <h2>Player Score</h2>
-  <h2 id="player-score">0</h2>
+  <div class="player-score--container">
+    <h2 id="playerName">PLAYER</h2>
+    <h3 class="player-score">0</h3>
+  </div>
 
   <!-- Games table -->
   <table border = "10">
+
     <tr>
+
       <td id="cell-1"></td>
       <td id="cell-2"></td>
       <td id="cell-3"></td>
+
     </tr>
+
     <tr>
+
       <td id="cell-4"></td>
       <td id="cell-5"></td>
       <td id="cell-6"></td>
+
     </tr>
+
   </table>
   <br>
   <button type="text" id="start-button">START</button>

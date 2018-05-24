@@ -3,6 +3,7 @@ let ComputersPick = [];
 let userClick = 0;
 let playersScore = 0;
 let round = 1;
+let tilesCount = 3;
 
 $(() => {
   const $playerScoreElement = $('.player-score');
@@ -43,7 +44,7 @@ $(() => {
     resetBoard();
 
     // Do this 3 times
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i <= tilesCount; i++) {
       // Run selectRandomCell function per second
       setTimeout(selectRandomCell, i * 1000);
       // Remove the yellow colour and clear the cells
@@ -101,6 +102,7 @@ $(() => {
 
         } else {
           alert('You won');
+          tilesCount++
           endGame();
           $('#start-button').text('Play Again');
 

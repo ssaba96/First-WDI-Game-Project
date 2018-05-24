@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "godfatherimport";
+  src: url("../Fonts/the-godfather/TheGodfather-v2.ttf") format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "dystopianimport";
+  src: url("../Fonts/Dystopian-Future.ttf") format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+body {
+  background-image: url('../images/gangster_night.jpg');
+  text-align: center;
+}
+td {
+  background-color: grey;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.yellow{
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+.header-container {
+
+  width: 100%;
+  overflow: hidden;
+
+  .centered-box {
+
+    text-align: center;
+
+    .header-image {
+      width: 200px;
+      float: left;
+      margin-right: 50px;
+    }
+
+    .heading {
+      float: left;
+      font-family: godfatherimport;
+      font-size: 100px;
+      letter-spacing: 10px;
+      color: white;
+      margin-bottom: 0;
+      margin-top: 25px;
+    }
+
+  }
+
+}
+#Messages {
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: red;
+}
+
+.player-score--container {
+
+  color: white;
+  width: 100%;
+
+}
+
+table {
+
+  margin: 0 auto;
+
+}
+
+#start-button {
+  width: 150px;
+  background-color: red;
+  color: white;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 20px;
+}

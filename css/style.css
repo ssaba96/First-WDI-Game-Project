@@ -1,23 +1,66 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - scss/style.scss
+@font-face {
+  font-family: "godfatherimport";
+  src: url("../Fonts/the-godfather/TheGodfather-v2.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal; }
+@font-face {
+  font-family: "dystopianimport";
+  src: url("../Fonts/Dystopian-Future.ttf") format("truetype");
+  font-weight: normal;
+  font-size: normal; }
+body {
+  background-image: url("../images/gangster_night.jpg");
+  text-align: center; }
 
-Backtrace:
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:454:in `read'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:22:in `load'
-/usr/local/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/style.scss"; }
+td {
+  background-color: grey;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black; }
+
+.yellow {
+  background-color: yellow; }
+
+.green {
+  background-color: green; }
+
+.header-container {
+  width: 100%;
+  overflow: hidden; }
+  .header-container .centered-box {
+    text-align: center; }
+    .header-container .centered-box .header-image {
+      width: 200px;
+      float: left;
+      margin-right: 50px; }
+    .header-container .centered-box .heading {
+      float: left;
+      font-family: godfatherimport;
+      font-size: 100px;
+      letter-spacing: 10px;
+      color: white;
+      margin-bottom: 0;
+      margin-top: 25px; }
+
+#Messages {
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: red; }
+
+.player-score--container {
+  color: white;
+  width: 100%; }
+
+table {
+  margin: 0 auto; }
+
+#start-button {
+  width: 150px;
+  background-color: red;
+  color: white;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
