@@ -2,49 +2,77 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Simon Says</title>
+  <title>Follow Me</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./app.js"></script>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
-  <div class="header-container">
-    <div class="centered-box">
-      <img class="header-image" src="./images/mobster.png"/>
-      <h2 class="heading">BECAUSE SIMON SAYS</h2>
-    </div>
+<audio class ="audio"></audio>
+<div class="header-container">
+  <div class="centered-box">
+    <img class="header-image" src="./images/blood-background.png"/>
+    <h2 class="heading">FOLLOW ME...</h2>
   </div>
+</div>
 
-  <h2 id="Messages"></h2>
+<h2 id="Messages"></h2>
 
-  <!-- Player Score -->
-  <div class="player-score--container">
-    <h2 id="playerName">PLAYER</h2>
-    <h3 class="player-score">0</h3>
-  </div>
+<!-- Player Score -->
+<div class="player-score--container">
+  <h2 id="playerName">PLAYER SCORE</h2>
+  <h3 class="player-score">0</h3>
+</div>
 
-  <!-- Games table -->
-  <table border = "10">
+<!-- Games table -->
+<table border = "10">
 
-    <tr>
+  <tr>
+    <td id="cell-1"></td>
+    <td id="cell-2"></td>
+    <td id="cell-3"></td>
+    <td id="cell-4"></td>
+    <td id="cell-5"></td>
+    <td id="cell-6"></td>
+  </tr>
 
-      <td id="cell-1"></td>
-      <td id="cell-2"></td>
-      <td id="cell-3"></td>
+  <tr>
+    <td id="cell-7"></td>
+    <td id="cell-8"></td>
+    <td id="cell-9"></td>
+    <td id="cell-10"></td>
+    <td id="cell-11"></td>
+    <td id="cell-12"></td>
+  </tr>
 
-    </tr>
+  <tr>
+    <td id="cell-13"></td>
+    <td id="cell-14"></td>
+    <td id="cell-15"></td>
+    <td id="cell-16"></td>
+    <td id="cell-17"></td>
+    <td id="cell-18"></td>
+  </tr>
 
-    <tr>
+  <tr>
+    <td id="cell-19"></td>
+    <td id="cell-20"></td>
+    <td id="cell-21"></td>
+    <td id="cell-22"></td>
+    <td id="cell-23"></td>
+    <td id="cell-24"></td>
+  </tr>
 
-      <td id="cell-4"></td>
-      <td id="cell-5"></td>
-      <td id="cell-6"></td>
-
-    </tr>
-
-  </table>
-  <br>
-  <button type="text" id="start-button">START</button>
+  <tr>
+    <td id="cell-25"></td>
+    <td id="cell-26"></td>
+    <td id="cell-27"></td>
+    <td id="cell-28"></td>
+    <td id="cell-29"></td>
+    <td id="cell-30"></td>
+  </tr>
+</table>
+<br>
+<button type="text" id="start-button">START</button>
 </body>
 </html>

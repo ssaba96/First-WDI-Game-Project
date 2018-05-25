@@ -1,25 +1,30 @@
-let cellsArray = ['cell-1', 'cell-2', 'cell-3', 'cell-4', 'cell-5', 'cell-6'];
+let cellsArray = ['cell-1', 'cell-2', 'cell-3', 'cell-4', 'cell-5', 'cell-6', 'cell-7','cell-8','cell-9','cell-10','cell-11','cell-12','cell-13','cell-14','cell-15','cell-16','cell-17','cell-18','cell-19','cell-20','cell-21','cell-22',
+  'cell-23','cell-24','cell-25','cell-26','cell-27','cell-28','cell-29','cell-30'];
+
 let ComputersPick = [];
 let userClick = 0;
 let playersScore = 0;
 let round = 1;
 
 $(() => {
+
   const $playerScoreElement = $('.player-score');
   const $startButton = $('#start-button');
-  console.log($playerScoreElement);
+  const audio = document.querySelector('.audio');
+
   function resetBoard(){
-    cellsArray = ['cell-1', 'cell-2', 'cell-3', 'cell-4', 'cell-5', 'cell-6'];
+    cellsArray = ['cell-1', 'cell-2', 'cell-3', 'cell-4', 'cell-5', 'cell-6', 'cell-7','cell-8','cell-9','cell-10','cell-11','cell-12','cell-13','cell-14','cell-15','cell-16','cell-17','cell-18','cell-19','cell-20','cell-21','cell-22',
+      'cell-23','cell-24','cell-25','cell-26','cell-27','cell-28','cell-29','cell-30'];
     ComputersPick = [];
     userClick = 0;
     $('td').removeClass('yellow');
-    $('td').removeClass('green');
+    $('td').removeClass('usersPick');
   }
 
   // Initial reset
   resetBoard();
 
-  // This function selects a random cell from the above cells, and turns it yellow
+  // This function will select a random cell from the above cells, and turns it yellow
   function selectRandomCell(){
 
     // Get a random index from cells array
@@ -54,8 +59,6 @@ $(() => {
   }
 
   function endGame(){
-    playersScore = 0;
-    $playerScoreElement.text(0);
     $('table').hide();
     $startButton.show();
     $startButton.text('Play Again');
@@ -63,25 +66,40 @@ $(() => {
 
   function youLost(){
     endGame();
+    $('#Messages').show();
     $('#Messages').text('Game Over!');
-    round = 1;
+  }
+
+  function youWon(){
+    endGame();
+    $('#Messages').show();
+    $('#Messages').text('You won!');
   }
 
   // When a user clicks start button
   $startButton.on('click', function() {
+    round = 1;
+    playersScore = 0;
+    $playerScoreElement.text(0);
     $('table').show();
     runSequence();
     $startButton.hide();
+    $('#Messages').hide();
+    audio.src = './horrorMusic.mp3';
+    audio.play();
   });
 
 
 
   // When user clicks on cell
   $('td').on('click', function(){
-    $(this).addClass('green');
+    $(this).addClass('usersPick');
+
+    // Iterating through ComputersPick array using userClick value i.e 0, 1, 2
     if(ComputersPick[userClick] !== $(this).attr('id')){
+
       youLost();
-      // If computer and user cells match
+
     } else {
 
       // On third click
@@ -89,18 +107,19 @@ $(() => {
 
         // Add a score
         playersScore++;
-        // View new score
-        console.log(playersScore, $playerScoreElement);
 
         if(round < 4){
-          setTimeout(function() {
-            $('td').removeClass('green');
-            runSequence();
-            $playerScoreElement.text(playersScore);
-          }, 500);
+
+          setTimeout(
+
+            function() {
+              $('td').removeClass('usersPick');
+              runSequence();
+              $playerScoreElement.text(playersScore);
+            }, 500);
 
         } else {
-          alert('You won');
+          youWon();
           endGame();
           $('#start-button').text('Play Again');
 

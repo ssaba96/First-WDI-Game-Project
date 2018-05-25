@@ -20,7 +20,7 @@ set button type to text and give id as start-button
 
 #CSS
 td will be styled
-Each td cell will have background image set to cover
+Each td cell will have sbackground image
 
 #JS/Jquery
 What is the first thing a user does?
