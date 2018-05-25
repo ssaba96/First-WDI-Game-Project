@@ -12,4 +12,4 @@ For my first project, i had to build a game using HTML, CSS and JavaScript (jQue
 ###### If wrong cell is clicked, player loses. Player can then click play again restart. The Player score will be reset to O.
 <p align="center"><img src="https://i.imgur.com/lbzrbFg.png" width="700"></p>
 ---
-This game can be made more challenging by adding levels to it and increase number of cells picked by computer after Players each win.
+This game can be made more challenging by adding levels to it and increase number of cells picked by computer after Players' each win.
