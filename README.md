@@ -20,6 +20,7 @@ Your app must:
 - Use semantic markup for HTML and CSS (adhere to best practices)
 
 [**GitHub**](https://ssaba96.github.io/First-WDI-Game-Project/)
+
 [**GitHub Repository**](https://github.com/ssaba96/First-WDI-Game-Project)
 
 
