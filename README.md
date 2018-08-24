@@ -81,7 +81,7 @@ Home Page:
 
 Features I would have liked to include:
 
-- TThe level of this game can be made difficult by adding levels to it and increase number of cells picked by computer after Players' each win.
+- The level of this game can be made difficult by adding levels to it and increase number of cells picked by computer after Players' each win.
 
 - This can be made into a two player game to make it more challenging.
 
