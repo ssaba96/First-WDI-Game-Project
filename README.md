@@ -40,48 +40,24 @@ For this project I have used the following technologies:
 ---
 
 ### My Project screenshots
-Home Page: 
+Home Page:
 <img width="1383" alt="1fhome" src="https://i.imgur.com/fnFgZBU.png">
-
-About Page:
-<img width="1217" alt="9fabout" src="https://user-images.githubusercontent.com/32818032/37656254-6e73f4ba-2c3f-11e8-810b-700bd9fb60b7.png">
-
-Registration Page:
-<img width="1217" alt="10fregister" src="https://user-images.githubusercontent.com/32818032/37656255-6e8f84fa-2c3f-11e8-86fc-d1b4e2f3e952.png">
-
-Login Page:
-<img width="1378" alt="4flogin" src="https://user-images.githubusercontent.com/32818032/37655995-b18a903e-2c3e-11e8-9fb4-1a9ec7811b80.png">
-
-Current Donations Page:
-<img width="1218" alt="5fhome" src="https://user-images.githubusercontent.com/32818032/37655996-b1a50536-2c3e-11e8-8b34-ab340fd34e44.png">
-
-Add a Donation:
-<img width="1176" alt="6fdonationadd" src="https://user-images.githubusercontent.com/32818032/37655997-b1bf81fe-2c3e-11e8-8ff4-39792f39c128.png">
-
-Donation Show Page:
-<img width="1193" alt="7fdonationshow" src="https://user-images.githubusercontent.com/32818032/37655998-b1dbc60c-2c3e-11e8-844c-a00b4e2d47a0.png">
-
-Charity Page displaying nearby vendors with available food:
-<img width="1192" alt="8fvendorshowpage" src="https://user-images.githubusercontent.com/32818032/37655999-b1fba454-2c3e-11e8-9b0a-b59c09176b8e.png">
-
-
-<p align="center"><img src="https://i.imgur.com/fnFgZBU.png" width="700"></p>
 
 ###### STEP 1: The player clicks start. The computer then changes 3 image of random cells.
 
-<p align="center"><img src="https://i.imgur.com/YHMp405.png" width="700"></p>
+<img width="1217" alt="9fabout" src="https://i.imgur.com/YHMp405.png">
 
 ###### Step 2: The player then clicks the same cells in same order. Bats appearing indicates the cells player has clicked. If player gets the order correct, 1 point is added to the score.
 
-<p align="center"><img src="https://i.imgur.com/y8MEQqN.png" width="700"></p>
+<img width="1217" alt="10fregister" src="https://i.imgur.com/y8MEQqN.png">
 
 ###### Players has to gain 3 points in order to win.
-
-<p align="center"><img src="https://i.imgur.com/uioFgOg.png" width="700"></p>
+<img width="1378" alt="4flogin" src="https://i.imgur.com/uioFgOg.png">
 
 ###### If wrong cell is clicked, player loses. Player can then click play again restart. The Player score will be reset to 0.
 
-<p align="center"><img src="https://i.imgur.com/lbzrbFg.png" width="700"></p>
+<img width="1218" alt="5fhome" src="https://i.imgur.com/lbzrbFg.png">
+
 
 ---
 
