@@ -4,7 +4,7 @@
 
 ### Overview
 
-This game comes with bit of a creepy flavour. The user has to remember and click cards in the order they were flashed to gain points and win.
+This game comes with bit of a creepy flavour. To gain points and win, the user has to remember and click cards in the order they were flashed.
 
 ### Project Brief
 
