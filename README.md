@@ -84,13 +84,3 @@ Features I would have liked to include:
 - The level of this game can be made difficult by adding levels to it and increase number of cells picked by computer after Players' each win.
 
 - This can be made into a two player game to make it more challenging.
-
-
-
-
-How do you suggest we develop user authentication and data storage?
-The application can make use of jwt tokens to authenticate user login to account. 
-MongoDB can be used to store user data and tasks associated with them in a relational database.
-
-What sort of hosting options are there for a site like this?
-We can host the javascript app like this on Heroku or Github.
